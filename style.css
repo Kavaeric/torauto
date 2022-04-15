@@ -14,6 +14,10 @@ body {
     color: #fff;
 }
 
+p { 
+    line-height: 1.6;
+}
+
 div#header {
     width: 100%;
     background: #222;
@@ -86,6 +90,7 @@ img.profile-img {
 p.profile-summary {
     grid-area: summary;
     margin: 0;
+    line-height: initial;
 }
 
 ul.articles {
